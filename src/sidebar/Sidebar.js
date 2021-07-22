@@ -20,11 +20,11 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">CATEGORIES</span>
         <ul className="sidebarList">
+          <li className="sidebarListItem">HTML</li>
+          <li className="sidebarListItem">CSS</li>
+          <li className="sidebarListItem">JavaScript</li>
           <li className="sidebarListItem">React</li>
-          <li className="sidebarListItem">Node.js</li>
-          <li className="sidebarListItem">Next.js</li>
-          <li className="sidebarListItem">Redux</li>
-          <li className="sidebarListItem">Marketing</li>
+          <li className="sidebarListItem">UI Design</li>
         </ul>
       </div>
       <div className="sidebarItem">

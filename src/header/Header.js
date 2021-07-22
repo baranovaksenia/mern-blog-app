@@ -1,17 +1,30 @@
 import "./header.css";
+import Video from "../videos/video.mp4";
 
 export default function Header() {
   return (
     <div className="header">
       <div className="headerTitles">
-        <span className="headerTitle-small">Development & Marketing</span>
+        <span className="headerTitle-small">Healthy LifeStyle</span>
         <span className="headerTitle-large">Blog</span>
       </div>
-      <img
+      <div className="headerContainer">
+        <div className="headerBg">
+          <video
+            className="headerVideo"
+            autoPlay
+            loop
+            muted
+            src={Video}
+            type="video/mp4"
+          />
+        </div>
+      </div>
+      {/* <img
         className="headerImg"
-        src="https://images.unsplash.com/photo-1524861646941-b897e7f18230?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        src="https://image.freepik.com/free-vector/healthy-food-concept-idea-organic-menu-diet-natural-nutrition-fresh-ingredient-body-health-care-weight-loss-illustration_277904-4254.jpg"
         alt="web-development background"
-      />
+      /> */}
     </div>
   );
 }
