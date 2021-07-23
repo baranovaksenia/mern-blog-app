@@ -24,7 +24,9 @@ export default function Sidebar() {
           <li className="sidebarListItem">CSS</li>
           <li className="sidebarListItem">JavaScript</li>
           <li className="sidebarListItem">React</li>
+          <li className="sidebarListItem">Node.js</li>
           <li className="sidebarListItem">UI Design</li>
+          <li className="sidebarListItem">Marketing</li>
         </ul>
       </div>
       <div className="sidebarItem">

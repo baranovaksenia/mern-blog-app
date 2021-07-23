@@ -1,5 +1,5 @@
 import "./header.css";
-import Video from "../videos/video.mp4";
+import Video from "../../videos/video.mp4";
 
 export default function Header() {
   return (
